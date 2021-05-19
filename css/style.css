@@ -1,0 +1,25 @@
+/*font*/
+
+h1 {
+    color: aqua;
+}
+
+p {
+    color: lightslategray;
+}
+
+
+/*navbar*/
+
+.navbar-nav {
+    margin-left: 100px;
+}
+
+.navbar-item {
+    margin-left: 120px;
+}
+
+.container,
+.container1 {
+    margin-top: 50px;
+}
