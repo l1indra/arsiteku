@@ -1,25 +1,54 @@
+.body {
+    background-color: #0C0C0C;
+}
+
+
 /*font*/
 
-h1 {
-    color: aqua;
+h1,
+h2,
+h5 {
+    color: #99EFD0;
 }
 
 p {
-    color: lightslategray;
+    color: #8476AA;
 }
 
 
 /*navbar*/
 
-.navbar-nav {
-    margin-left: 100px;
+.navbar-brand {
+    font-size: 20px;
 }
 
-.navbar-item {
-    margin-left: 120px;
+.navbar-nav li {
+    padding-right: 50px;
+    padding-top: 6px;
 }
 
-.container,
-.container1 {
-    margin-top: 50px;
+.container .container1 {
+    padding-top: 100px;
+}
+
+
+/*bussines partner*/
+
+.container .bussinespartner {
+    padding-top: 50px;
+}
+
+
+/*Our Services*/
+
+.ourservices {
+    padding-top: 100px;
+}
+
+.ourservices .col {
+    padding-top: 50px;
+}
+
+.ourservices .col p {
+    color: white;
 }
