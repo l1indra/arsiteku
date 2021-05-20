@@ -45,10 +45,17 @@ p {
     padding-top: 100px;
 }
 
-.ourservices .col {
-    padding-top: 50px;
+.ourservices .col p {
+    color: #C4C4C4;
 }
 
-.ourservices .col p {
-    color: white;
+
+/*create your project*/
+
+.container .createproject {
+    padding-top: 100px;
+}
+
+.container .createproject a {
+    padding-top: 20px;
 }
