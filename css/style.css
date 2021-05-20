@@ -18,6 +18,10 @@ p {
 
 /*navbar*/
 
+.dark {
+    background-color: #0C0C0C;
+}
+
 .navbar-brand {
     font-size: 20px;
 }
@@ -28,7 +32,7 @@ p {
 }
 
 .container .container1 {
-    padding-top: 100px;
+    padding-top: 180px;
 }
 
 
