@@ -18,29 +18,58 @@ p {
 
 /*navbar*/
 
-.navdark {
-    background-color: #0C0C0C;
+.navbar {
+    background: #0C0C0C;
 }
 
-.navbar-brand {
-    font-size: 20px;
+.navbar .navbar-brand {
+    font-size: 1.4rem;
+    font-weight: 700;
 }
 
-.navbar-nav li {
-    padding-right: 50px;
-    padding-top: 6px;
+#navbarSupportedContent>ul>li:nth-child(n)>a {
+    color: #fff;
+    font-size: 1.1rem;
+    padding: 0.8rem 1.2rem;
 }
+
+#navbarSupportedContent>ul>li:nth-child(n)>a:hover {
+    color: #99EFD0;
+}
+
+.navbar .btn {
+    border-radius: 10px;
+    padding: 0.4rem 2rem;
+}
+
+.navbar .btnsignup {
+    background: #99EFD0;
+}
+
+.navbar a:hover .btn {
+    background: #8476AA;
+}
+
+
+/*section1*/
 
 .container .container1 {
-    padding-top: 180px;
+    padding: 10rem 0rem;
+}
+
+.container .container1 .btn {
+    border-radius: 10px;
+    padding: 0.4rem 1rem;
+}
+
+.container .container1 a:hover .btn {
+    background: #8476AA;
 }
 
 
 /*bussines partner*/
 
-.container .bussinespartner {
-    padding-top: 50px;
-}
+.container .bussinespartner {}
 
 
 /*Our Services*/
