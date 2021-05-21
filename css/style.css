@@ -1,8 +1,3 @@
-.body {
-    background-color: #0C0C0C;
-}
-
-
 /*font*/
 
 h1,
@@ -20,6 +15,7 @@ p {
 
 .navbar {
     background: #0C0C0C;
+    padding: 0rem 4rem;
 }
 
 .navbar .navbar-brand {
@@ -53,8 +49,9 @@ p {
 
 /*section1*/
 
-.container .container1 {
-    padding: 10rem 0rem;
+.container1 {
+    padding: 8rem 4rem;
+    background: #0C0C0C;
 }
 
 .container .container1 .btn {
@@ -69,33 +66,22 @@ p {
 
 /*bussines partner*/
 
-.container .bussinespartner {}
+.bussinespartner {
+    background: #0C0C0C;
+    padding-bottom: 8rem;
+}
 
 
 /*Our Services*/
 
 .ourservices {
-    padding-top: 100px;
-}
-
-.ourservices .col p {
-    color: #C4C4C4;
+    padding: 8rem;
+    background-image: linear-gradient( to bottom right, #74b19a, #99EFD0)
 }
 
 
 /*create your project*/
 
-.container .createproject {
-    padding-top: 100px;
-}
-
-.container .createproject a {
-    padding-top: 20px;
-}
-
-
-/*carousel*/
-
-.carouselimg {
-    padding-top: 100px;
+.createproject {
+    padding-bottom: 8rem;
 }
