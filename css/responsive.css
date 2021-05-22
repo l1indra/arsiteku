@@ -1,0 +1,12 @@
+@media (max-width: 576px) {
+    .hero {
+        text-align: center;
+        padding: 8rem 4rem;
+    }
+    .hero img {
+        padding-top: 2rem;
+    }
+    .ourservices {
+        padding: 8rem 4rem;
+    }
+}
