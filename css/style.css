@@ -9,7 +9,7 @@
 }
 
 .navbar .navbar-brand {
-    font-size: 1.4rem;
+    font-size: 1.6rem;
     font-weight: 700;
 }
 
@@ -40,7 +40,7 @@
 /*hero*/
 
 .hero {
-    padding: 8rem 0rem;
+    padding: 12rem 0rem;
     background: #0C0C0C;
 }
 
@@ -74,7 +74,8 @@
 
 .ourservices {
     padding: 8rem 0rem;
-    background-image: linear-gradient( to bottom right, #fff, #99EFD0)
+    background-image: linear-gradient( to bottom, #fff, #99EFD0);
+    color: #8476AA;
 }
 
 .ourservices .row {
