@@ -6,7 +6,7 @@
     .hero img {
         padding-top: 2rem;
     }
-    .ourservices {
-        padding: 8rem 4rem;
+    .ourservices .container {
+        padding: 0rem 4rem;
     }
 }

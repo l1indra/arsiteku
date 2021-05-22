@@ -66,14 +66,12 @@
 
 .bussinespartner {
     background: #0C0C0C;
-    padding-bottom: 8rem;
 }
 
 
 /*Our Services*/
 
 .ourservices {
-    padding: 8rem 0rem;
     background-image: linear-gradient( to bottom, #fff, #99EFD0);
     color: #8476AA;
 }
@@ -85,10 +83,7 @@
 
 /*create your project*/
 
-.createproject {
-    padding-top: 8rem;
-    padding-bottom: 2rem;
-}
+.createproject {}
 
 .createproject2 {
     padding-bottom: 8rem;
