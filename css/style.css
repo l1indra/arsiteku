@@ -1,21 +1,11 @@
 /*font*/
 
-h1,
-h2,
-h5 {
-    color: #99EFD0;
-}
-
-p {
-    color: #8476AA;
-}
-
 
 /*navbar*/
 
 .navbar {
     background: #0C0C0C;
-    padding: 0rem 4rem;
+    padding: 0rem 0rem;
 }
 
 .navbar .navbar-brand {
@@ -47,19 +37,27 @@ p {
 }
 
 
-/*section1*/
+/*hero*/
 
-.container1 {
-    padding: 8rem 4rem;
+.hero {
+    padding: 8rem 0rem;
     background: #0C0C0C;
 }
 
-.container .container1 .btn {
+.hero h1 {
+    color: #99EFD0;
+}
+
+.hero p {
+    color: #8476AA;
+}
+
+.hero .container .btn {
     border-radius: 10px;
     padding: 0.4rem 1rem;
 }
 
-.container .container1 a:hover .btn {
+.hero .container a:hover .btn {
     background: #8476AA;
 }
 
@@ -75,13 +73,26 @@ p {
 /*Our Services*/
 
 .ourservices {
-    padding: 8rem;
-    background-image: linear-gradient( to bottom right, #74b19a, #99EFD0)
+    padding: 8rem 0rem;
+    background-image: linear-gradient( to bottom right, #fff, #99EFD0)
+}
+
+.ourservices .row {
+    padding-bottom: 2rem;
 }
 
 
 /*create your project*/
 
 .createproject {
+    padding-top: 8rem;
+    padding-bottom: 2rem;
+}
+
+.createproject2 {
     padding-bottom: 8rem;
+}
+
+.createproject h2 {
+    font-weight: 700;
 }
